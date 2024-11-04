@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    form {
+      display: flex;
+      border-radius: 8px;
+      flex-direction: column;
+      background-color: rgb(83, 83, 223);
+      padding: 12px;
+    }
+
+    form > * {
+      margin: 16px;
+      font-size: 2rem;
+      border-radius: 8px;
+      line-height: 3rem;
+      outline: none;
+      border: none;
+    }
+  </style>
+  <body>
+    <form>
+      <input
+        placeholder="Search something..."
+        class="input-value"
+        type="text"
+      />
+    </form>
+  </body>
+  <script type="module" src="./index.js"></script>
+</html>
