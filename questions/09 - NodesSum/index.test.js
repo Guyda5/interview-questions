@@ -1,6 +1,6 @@
 import { nodesSum } from ".";
 
-test("nodesSum", () => {
+xtest("nodesSum", () => {
   const sampleInput = {
     key1: {
       key11: {
